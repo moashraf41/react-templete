@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 import Info from "./components/InfoSection/Info";
 import graphs from "../src/assets/graphs.svg";
-import productLaunch from "../src/assets/product-Launch.svg";
+import productLaunch from "../src/assets/product.svg";
 import waving from "../src/assets/waving.svg";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";

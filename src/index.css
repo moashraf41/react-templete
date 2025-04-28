@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Duru+Sans&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --btnColor: #2e186a;
+  --secondaryColor: RGB(255, 130, 92);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "duru sans", sans-serif;
+}
+
+.appBtn {
+  background-color: var(--btnColor);
+  color: white;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  padding: 10px 60px !important;
+}
+.appBtn:hover {
+  background-color: var(--secondaryColor) !important;
+}
+/* mediaquery to change rem size */
+@media only screen and (max-width: 950px) {
+  html {
+    font-size: 14px;
+  }
+  .appBtn {
+    padding: 10px 35px !important;
+  }
+}
+/* mediaquery to change rem size */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 11px;
+  }
+  .appBtn {
+    padding: 10px 40px !important;
+  }
+}
+h6 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--btnColor) !important;
+}
+p {
+  font-size: 1.2rem;
+  color: var(--btnColor) !important;
+  opacity: 0.8;
+  line-height: 2rem;
+}

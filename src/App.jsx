@@ -56,7 +56,7 @@ function App() {
           </p>
         }
         img={productLaunch}
-        imgStart={true}
+        imgStart={false}
       />
       <Info
         h6={<h6>That's about it!</h6>}

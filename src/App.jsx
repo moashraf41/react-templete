@@ -1,7 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-// import reactBootstrap
 import Navbar from "./components/Navbar/Navbar";
 
 import Info from "./components/InfoSection/Info";
@@ -10,7 +9,7 @@ import productLaunch from "../src/assets/product.svg";
 import waving from "../src/assets/waving.svg";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/hero";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (

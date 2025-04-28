@@ -5,9 +5,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Info from "./components/InfoSection/Info";
-import graphs from "../public/graphs.svg";
-import productLaunch from "../public/product-Launch.svg";
-import waving from "../public/waving.svg";
+import graphs from "../src/assets/graphs.svg";
+import productLaunch from "../src/assets/product-Launch.svg";
+import waving from "../src/assets/waving.svg";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import img from "../../../public/developer.svg";
+import img from "../../assets/developer.svg";
 import HeroCss from "./Hero.module.css";
 
 export default class Hero extends Component {

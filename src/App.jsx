@@ -10,10 +10,16 @@ import waving from "../src/assets/waving.svg";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
+import { ThemeContext } from "./Contexts/ThemeContext/ThemeProvider";
+import { useContext } from "react";
 
 function App() {
+  let { theme, toglleTheme } = useContext(ThemeContext);
+  console.log(theme);
+  let finalBg = theme === "light" ? "bg-light" : "bg-dark";
+  let finalColor = theme === "light" ? "text-dark" : "text-light";
   return (
-    <>
+    <div className={` ${finalBg}`}>
       <Navbar />
       <Hero />
       <Info
@@ -73,7 +79,7 @@ function App() {
       />
       <ContactForm />
       <Footer />
-    </>
+    </div>
   );
 }
 

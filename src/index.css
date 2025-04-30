@@ -52,3 +52,6 @@ p {
   opacity: 0.8;
   line-height: 2rem;
 }
+a {
+  cursor: pointer;
+}

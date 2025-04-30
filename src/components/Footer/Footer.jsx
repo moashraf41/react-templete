@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       <>
-        <footer className={styles.footer + " mt-5"}>
+        <footer className={styles.footer + " mt-5 shadow"}>
           <div className="container">
             <div className={styles.row}>
               <div className={styles.colMd4}>
